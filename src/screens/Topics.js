@@ -2,7 +2,7 @@ import React from 'react';
 import Topic from './Topic';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 
-const Topics = () => (
+const Topics = ({ match }) => (
   <div>
     <h2>Topics</h2>
     <ul>
